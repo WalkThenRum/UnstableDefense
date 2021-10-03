@@ -1,0 +1,1 @@
+global.startWave = false;

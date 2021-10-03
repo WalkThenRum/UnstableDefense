@@ -4,6 +4,8 @@
 // Inherit the parent event
 event_inherited();
 
+audio_play_sound(sndCannon,6,false);
+
 list = ds_list_create();
 
 bulletXDirection = mouse_x;

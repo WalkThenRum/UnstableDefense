@@ -14,6 +14,7 @@ if(mouse_check_button_pressed(mb_left) == true)
 	
 if(casting1 == true && casted == true)
 {
+	audio_play_sound(sndSummon,6,false);
 	ability1Instance = instance_create_layer(mouse_x,mouse_y,"Instances",oCannon);
 	instance_destroy(oPlayerCastingCircle);
 	casting1 = false;
@@ -21,6 +22,7 @@ if(casting1 == true && casted == true)
 }
 else if(casting2 == true && casted == true)
 {
+	audio_play_sound(sndSummon,6,false);
 	ability2Instance = instance_create_layer(mouse_x,mouse_y,"Instances",oCannon);
 	instance_destroy(oPlayerCastingCircle);
 	casting2 = false;
@@ -28,6 +30,7 @@ else if(casting2 == true && casted == true)
 }
 else if(casting3 == true && casted == true)
 {
+	audio_play_sound(sndSummon,6,false);
 	ability3Instance = instance_create_layer(mouse_x,mouse_y,"Instances",oCannon);
 	instance_destroy(oPlayerCastingCircle);
 	casting3 = false;

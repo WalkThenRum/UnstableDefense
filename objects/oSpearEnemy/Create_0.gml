@@ -9,7 +9,7 @@ currentMoveSpeed = baseMoveSpeed;
 changeDirectionCounter = 0;
 
 
-powerLevel = 3;
+powerLevel = 7;
 
 attacking = false;
 justAttacked = false;

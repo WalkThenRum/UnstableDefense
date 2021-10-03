@@ -39,6 +39,7 @@ if(explode == true)
 	
 	if(frameCounter == 35)
 	{
+		audio_play_sound(sndSpark,5,false);
 		var list = ds_list_create();
 
 		instance_place_list(x,y,oAbilityParent,list,false)

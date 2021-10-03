@@ -27,6 +27,11 @@ if(burned == true)
 
 if(currentHp <=0)
 {
+	var i = irandom(100);
+	if(i <= 2*powerLevel)
+	{
+		instance_create_layer(x,y,"Instances",oHeart);
+	}
 	global.score = global.score + powerLevel;
 	instance_destroy();
 }

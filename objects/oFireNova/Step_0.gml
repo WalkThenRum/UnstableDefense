@@ -47,3 +47,23 @@ else
 	cooldownTimer = cooldownTimer -1;
 }
 
+
+if(explode == true)
+{
+	for(var i=0 ; i<7 ; i=i+1)
+	{
+		audio_play_sound(sndIconExplode,4,false);
+		var piece = instance_create_layer(x,y,"Instances",oFireNovaPieces);
+		angleRange = irandom_range(10,35);
+		piece.direction = 90 + 45*i +angleRange;
+		
+		piece.image_index = i;
+	}
+	
+	if(instance_exists(CastingCircle))
+	{
+		instance_destroy(CastingCircle);
+	}
+	instance_destroy();
+}
+

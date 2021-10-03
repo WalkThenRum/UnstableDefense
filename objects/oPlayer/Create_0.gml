@@ -2,6 +2,8 @@ dead = false;
 maxHp = 100;
 currentHp = maxHp;
 
+image_speed = 0;
+image_index = 0;
 
 baseMoveSpeed = 3;
 currentMoveSpeed = baseMoveSpeed;

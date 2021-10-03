@@ -8,7 +8,7 @@ baseMoveSpeed = 3;
 currentMoveSpeed = baseMoveSpeed;
 
 
-powerLevel = 1;
+powerLevel = 3;
 attacking = false;
 justAttacked = false;
 attackCone = noone;

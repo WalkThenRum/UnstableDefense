@@ -1,0 +1,3 @@
+clickedOn = false;
+hovered = false;
+

@@ -1,3 +1,5 @@
+audio_play_sound(sndArcSound,6,false);
+
 var list = ds_list_create();
 
 instance_place_list(x,y,oAbilityParent,list,false)

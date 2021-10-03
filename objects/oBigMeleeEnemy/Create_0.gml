@@ -6,7 +6,7 @@ event_inherited();
 
 baseMoveSpeed = 2;
 
-powerLevel = 2;
+powerLevel = 4;
 currentMoveSpeed = baseMoveSpeed;
 
 attacking = false;

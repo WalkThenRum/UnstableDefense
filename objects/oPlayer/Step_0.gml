@@ -231,7 +231,25 @@ if(currentHp <=0)
 	speed = 0;
 	if(dead == false)
 	{
+		image_index = 1;
 		instance_create_layer(430,220,"Board",oGameOverBoard);
+		if(instance_exists(oPlayerCastingCircle))
+		{
+			instance_destroy(oPlayerCastingCircle);
+		}
+		if(instance_exists(oAbilityParent))
+		{
+			instance_destroy(oAbilityParent);
+		}
+		if(instance_exists(oIconCastingLine))
+		{
+			instance_destroy(oIconCastingLine);
+		}
+		if(instance_exists(oIconCastingCircle))
+		{
+			instance_destroy(oIconCastingCircle);
+		}
+		
 	}
 	dead = true;
 }

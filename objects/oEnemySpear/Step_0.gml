@@ -40,6 +40,8 @@ if(frameCounter == 18)
 
 	instance_place_list(x,y,oAbilityParent,list,false)
 
+	audio_play_sound(sndEnemyMelee,4,false);
+
 	while(ds_list_empty(list) == false)
 	{
 		var abilityIcon = ds_list_find_value(list,0);

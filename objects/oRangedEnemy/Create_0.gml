@@ -8,7 +8,7 @@ baseMoveSpeed = 2;
 currentMoveSpeed = baseMoveSpeed;
 
 
-powerLevel = 3;
+powerLevel = 8;
 
 moveTimer = 0;
 attacking = false;
