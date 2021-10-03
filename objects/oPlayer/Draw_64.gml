@@ -1,0 +1,1 @@
+draw_sprite_stretched(sHealthBar,0,15,5,currentHp/maxHp*100,3);
